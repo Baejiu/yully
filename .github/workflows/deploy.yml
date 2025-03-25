@@ -28,9 +28,6 @@ jobs:
           # 필요한 환경 변수가 있다면 여기에 추가
           NODE_ENV: production
 
-      - name: Export static files 📤
-        run: npm run export
-
       - name: Add .nojekyll file 📄
         run: touch out/.nojekyll
 
