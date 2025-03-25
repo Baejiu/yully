@@ -64,10 +64,10 @@
   }
 }
 .slide_0 {
-  background-image: url('/images/slide_3.jpeg');
+  background-image: url('../../../public/images/slide_3.jpeg');
 }
 .slide_1 {
-  background-image: url('/images/slide_2.jpeg');
+  background-image: url('../../../public/images/slide_2.jpeg');
 }
 .slide_2 {
   background-image: url('/images/slide_4.jpeg');

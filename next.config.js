@@ -10,6 +10,7 @@ const nextConfig = {
   },
   assetPrefix: process.env.NODE_ENV === 'production' ? '/yully' : '',
   basePath: process.env.NODE_ENV === 'production' ? '/yully' : '',
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;
