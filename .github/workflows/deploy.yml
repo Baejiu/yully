@@ -5,6 +5,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# GitHub Actions 봇에게 저장소 쓰기 권한 부여
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
