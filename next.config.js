@@ -5,9 +5,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix:
-    process.env.NODE_ENV === 'production' ? '/{repository-name}' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/{repository-name}' : '',
+  compiler: {
+    styledComponents: true,
+  },
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/yully' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/yully' : '',
 };
 
 module.exports = nextConfig;
