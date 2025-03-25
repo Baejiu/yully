@@ -1,0 +1,30 @@
+.company-info {
+  background-color: #000;
+  color: white;
+  padding: 40px 20px;
+}
+
+.info-section {
+  border-bottom: 1px solid #333;
+  padding: 15px 0;
+}
+
+.info-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.info-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.view-more {
+  background-color: #222;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+}
