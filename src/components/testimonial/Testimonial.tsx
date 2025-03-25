@@ -7,11 +7,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 
-// 경로 헬퍼 함수 추가
-const getBasePath = () => {
-  return process.env.NODE_ENV === 'production' ? '/yully' : '';
-};
-
 function SampleNextArrow(props: CustomArrowProps) {
   const { onClick } = props;
   return (
@@ -90,7 +85,7 @@ function Testimonial() {
     <div className="testimonial-container">
       <div className="testimonial-banner">
         <Image
-          src={`${getBasePath()}/images/contact_icon.png`}
+          src={`/images/contact_icon.png`}
           alt="상담"
           width={60}
           height={60}

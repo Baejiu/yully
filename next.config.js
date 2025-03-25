@@ -8,8 +8,6 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/yully' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/yully' : '',
   trailingSlash: true,
 };
 
