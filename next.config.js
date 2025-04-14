@@ -8,11 +8,11 @@ const nextConfig = {
     styledComponents: true,
   },
   output: 'export',
-  basePath: '/yully',
-  assetPrefix: '/yully',
+  basePath: process.env.NODE_ENV === 'production' ? '/yully' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/yully' : '',
   trailingSlash: true,
   publicRuntimeConfig: {
-    basePath: '/yully',
+    basePath: process.env.NODE_ENV === 'production' ? '/yully' : '',
   },
 };
 
