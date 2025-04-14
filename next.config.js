@@ -9,6 +9,8 @@ const nextConfig = {
   },
   output: 'export',
   basePath: '/yully',
+  assetPrefix: '/yully/',
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;
