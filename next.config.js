@@ -9,7 +9,7 @@ const nextConfig = {
   },
   output: 'export',
   basePath: '/yully',
-  assetPrefix: '/yully/',
+  assetPrefix: '/yully',
   trailingSlash: true,
 };
 
