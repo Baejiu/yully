@@ -11,6 +11,9 @@ const nextConfig = {
   basePath: '/yully',
   assetPrefix: '/yully',
   trailingSlash: true,
+  publicRuntimeConfig: {
+    basePath: '/yully',
+  },
 };
 
 module.exports = nextConfig;

@@ -1,6 +1,8 @@
 import './ProductItem.css';
 import Image from 'next/image';
 
+const basePath = process.env.NODE_ENV === 'production' ? '/yully' : '';
+
 interface ProductProps {
   product: {
     id: number;
@@ -13,7 +15,7 @@ export default function ProductItem({ product }: ProductProps) {
   return (
     <div className="product-item">
       <Image
-        src="/images/product_icon.png"
+        src={`${basePath}/images/product_icon.png`}
         alt="product"
         width={60}
         height={66}

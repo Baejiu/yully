@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import './Hero.css';
 
+const basePath = process.env.NODE_ENV === 'production' ? '/yully' : '';
+
 export default function Hero() {
   return (
     <div className="hero">
@@ -17,7 +19,7 @@ export default function Hero() {
           className="hero-image"
         /> */}
         <Image
-          src="/images/main_impact.png"
+          src={`${basePath}/images/main_impact.png`}
           alt="logo"
           width={380}
           height={240}
