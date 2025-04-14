@@ -7,6 +7,8 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
+  output: 'export',
+  basePath: '/yully',
 };
 
 module.exports = nextConfig;
