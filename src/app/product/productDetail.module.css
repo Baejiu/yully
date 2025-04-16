@@ -11,6 +11,13 @@
   text-align: center;
 }
 
+.productDescription {
+  margin-bottom: 40px;
+  text-align: center;
+  color: #333;
+  display: none;
+}
+
 .section {
   margin-bottom: 60px;
 }
@@ -50,7 +57,7 @@
 }
 
 .item {
-  flex-basis: 30%;
+  flex-basis: calc(33.33% - 30px);
   text-align: center;
 }
 
@@ -94,6 +101,13 @@
     font-size: 1.5rem;
     margin-bottom: 30px;
   }
+  .itemsGrid {
+    padding: 0 20px;
+    gap: 30px;
+  }
+  .item {
+    flex-basis: calc(50% - 20px);
+  }
 }
 
 .descriptionList {
@@ -111,4 +125,17 @@
 
 .descriptionItem:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+  .productDescription {
+    display: block;
+  }
+  .itemsGrid {
+    padding: 0;
+    gap: 40px;
+  }
+  .item {
+    flex-basis: calc(100%);
+  }
 }

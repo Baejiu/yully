@@ -30,8 +30,10 @@ export default function ProductPage() {
               onClick={() => setActiveTab(product.id)}
             >
               <div className={styles.number}>{product.id}</div>
-              <h2 className={styles.productName}>{product.name}</h2>
-              <p className={styles.description}>{product.description}</p>
+              <div>
+                <h2 className={styles.productName}>{product.name}</h2>
+                <p className={styles.description}>{product.description}</p>
+              </div>
             </li>
           ))}
         </ul>

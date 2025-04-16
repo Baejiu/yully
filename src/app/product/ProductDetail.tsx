@@ -30,7 +30,7 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
   return (
     <div className={styles.detailContainer}>
       <h2 className={styles.productTitle}>{productData.title}</h2>
-
+      <p className={styles.productDescription}>{productData.description}</p>
       {productData.sections.map((section, sectionIndex) => (
         <div key={sectionIndex} className={styles.section}>
           <h3 className={styles.sectionTitle}>
