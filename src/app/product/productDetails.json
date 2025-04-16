@@ -1,0 +1,578 @@
+{
+  "01": {
+    "title": "올리 240",
+    "description": "올리 240에 대한 상품 설명을 간결하게 서술해 주세요. 올리 240에 대한 상품 설명을 간결하게 서술해 주세요.",
+    "sections": [
+      {
+        "title": "인력 서비스",
+        "items": [
+          {
+            "image": "/images/product/service1.jpg",
+            "title": "장례전문지도사",
+            "description": "3일간 파견"
+          },
+          {
+            "image": "/images/product/service2.jpg",
+            "title": "연습 보조",
+            "description": "입관시 1명 추가 지원"
+          },
+          {
+            "image": "/images/product/service3.jpg",
+            "title": "도우미",
+            "description": "3명 (1인 10시간)"
+          }
+        ]
+      },
+      {
+        "title": "고인 용품",
+        "items": [
+          {
+            "image": "/images/product/efficiency1.jpg",
+            "title": "관",
+            "description": "고급 오동나무 관제공"
+          },
+          {
+            "image": "/images/product/efficiency2.jpg",
+            "title": "수의",
+            "description": "고급 수의 제공"
+          },
+          {
+            "image": "/images/product/efficiency3.jpg",
+            "title": "유골함",
+            "description": "오동나무 목함 제공"
+          },
+          {
+            "image": "/images/product/efficiency4.jpg",
+            "title": "기타용품",
+            "description": "도포, 원삼, 천금, 지금, 습신, 베게 등 규격품 제공"
+          },
+          {
+            "image": "/images/product/efficiency5.jpg",
+            "title": "입관용품",
+            "description": "관보, 결관바, 알코올, 탈지면, 폐백, 다라니경 한지, 초석 등 입관용품 일체 제공"
+          }
+        ]
+      },
+      {
+        "title": "의전 서비스",
+        "items": [
+          {
+            "image": "/images/product/modern1.jpg",
+            "title": "현대식 상복",
+            "description": [
+              "검정양복 3번 제공 (셔츠, 타이 포함)",
+              "개량형 여상복 3번 제공 교차제공 불가"
+            ]
+          },
+          {
+            "image": "/images/product/modern2.jpg",
+            "title": "빈소 용품",
+            "description": "양초, 향, 위패, 명패, 부의록, 완장, 운구용 장갑 등"
+          },
+          {
+            "image": "/images/product/modern3.jpg",
+            "title": "의천차량 / 리무진 or 장의 버스",
+            "description": "리무진 or 장의 버스 중 택1"
+          },
+          {
+            "image": "/images/product/modern4.jpg",
+            "title": "앰뷸런스",
+            "description": "사전요청시 관내 무료 제공 (관외 유족 부담)"
+          },
+          {
+            "image": "/images/product/modern5.jpg",
+            "title": "제단장식",
+            "description": "지원금 없음"
+          },
+          {
+            "image": "/images/product/modern6.jpg",
+            "title": "헌화",
+            "description": "30송이 제공"
+          }
+        ]
+      },
+      {
+        "title": "부가 서비스",
+        "items": [
+          {
+            "image": "/images/product/other1.jpg",
+            "title": "행정절차 안내",
+            "description": "행정절차 안내"
+          },
+          {
+            "image": "/images/product/other2.jpg",
+            "title": "장지 알선 서비스",
+            "description": "장지 알선 서비스"
+          },
+          {
+            "image": "/images/product/other3.jpg",
+            "title": "관내 화장장 우선 예약",
+            "description": "관내 화장장 우선 예약"
+          },
+          {
+            "image": "/images/product/other4.jpg",
+            "title": "화장장 안내",
+            "description": "화장장 안내"
+          },
+          {
+            "image": "/images/product/other5.jpg",
+            "title": "안치시설 연계",
+            "description": "안치시설 연계"
+          },
+          {
+            "image": "/images/product/other6.jpg",
+            "title": "장례식장 빈소 예약",
+            "description": "장례식장 빈소 예약"
+          },
+          {
+            "image": "/images/product/other7.jpg",
+            "title": "염습진행",
+            "description": "염습진행"
+          },
+          {
+            "image": "/images/product/other8.jpg",
+            "title": "종교별 예식 진행",
+            "description": "종교별 예식 진행"
+          },
+          {
+            "image": "/images/product/other9.jpg",
+            "title": "모바일 부고 문자",
+            "description": "모바일 부고 문자"
+          }
+        ]
+      }
+    ]
+  },
+  "02": {
+    "title": "올리 330",
+    "description": "올리 330에 대한 상품 설명을 간결하게 서술해 주세요. 올리 330에 대한 상품 설명을 간결하게 서술해 주세요.",
+    "sections": [
+      {
+        "title": "인력 서비스",
+        "items": [
+          {
+            "image": "/images/product/service1.jpg",
+            "title": "장례전문지도사",
+            "description": "3일간 파견"
+          },
+          {
+            "image": "/images/product/service2.jpg",
+            "title": "연습 보조",
+            "description": "입관시 1명 추가 지원"
+          },
+          {
+            "image": "/images/product/service3.jpg",
+            "title": "도우미",
+            "description": "3명 (1인 10시간)"
+          }
+        ]
+      },
+      {
+        "title": "고인 용품",
+        "items": [
+          {
+            "image": "/images/product/efficiency1.jpg",
+            "title": "관",
+            "description": "고급 오동나무 관제공"
+          },
+          {
+            "image": "/images/product/efficiency2.jpg",
+            "title": "수의",
+            "description": "고급 수의 제공"
+          },
+          {
+            "image": "/images/product/efficiency3.jpg",
+            "title": "유골함",
+            "description": "오동나무 목함 제공"
+          },
+          {
+            "image": "/images/product/efficiency4.jpg",
+            "title": "기타용품",
+            "description": "도포, 원삼, 천금, 지금, 습신, 베게 등 규격품 제공"
+          },
+          {
+            "image": "/images/product/efficiency5.jpg",
+            "title": "입관용품",
+            "description": "관보, 결관바, 알코올, 탈지면, 폐백, 다라니경 한지, 초석 등 입관용품 일체 제공"
+          }
+        ]
+      },
+      {
+        "title": "의전 서비스",
+        "items": [
+          {
+            "image": "/images/product/modern1.jpg",
+            "title": "현대식 상복",
+            "description": [
+              "검정양복 3번 제공 (셔츠, 타이 포함)",
+              "개량형 여상복 3번 제공 교차제공 불가"
+            ]
+          },
+          {
+            "image": "/images/product/modern2.jpg",
+            "title": "빈소 용품",
+            "description": "양초, 향, 위패, 명패, 부의록, 완장, 운구용 장갑 등"
+          },
+          {
+            "image": "/images/product/modern3.jpg",
+            "title": "의천차량 / 리무진 or 장의 버스",
+            "description": "리무진 or 장의 버스 중 택1"
+          },
+          {
+            "image": "/images/product/modern4.jpg",
+            "title": "앰뷸런스",
+            "description": "사전요청시 관내 무료 제공 (관외 유족 부담)"
+          },
+          {
+            "image": "/images/product/modern5.jpg",
+            "title": "제단장식",
+            "description": "지원금 없음"
+          },
+          {
+            "image": "/images/product/modern6.jpg",
+            "title": "헌화",
+            "description": "30송이 제공"
+          }
+        ]
+      },
+      {
+        "title": "부가 서비스",
+        "items": [
+          {
+            "image": "/images/product/other1.jpg",
+            "title": "행정절차 안내",
+            "description": "행정절차 안내"
+          },
+          {
+            "image": "/images/product/other2.jpg",
+            "title": "장지 알선 서비스",
+            "description": "장지 알선 서비스"
+          },
+          {
+            "image": "/images/product/other3.jpg",
+            "title": "관내 화장장 우선 예약",
+            "description": "관내 화장장 우선 예약"
+          },
+          {
+            "image": "/images/product/other4.jpg",
+            "title": "화장장 안내",
+            "description": "화장장 안내"
+          },
+          {
+            "image": "/images/product/other5.jpg",
+            "title": "안치시설 연계",
+            "description": "안치시설 연계"
+          },
+          {
+            "image": "/images/product/other6.jpg",
+            "title": "장례식장 빈소 예약",
+            "description": "장례식장 빈소 예약"
+          },
+          {
+            "image": "/images/product/other7.jpg",
+            "title": "염습진행",
+            "description": "염습진행"
+          },
+          {
+            "image": "/images/product/other8.jpg",
+            "title": "종교별 예식 진행",
+            "description": "종교별 예식 진행"
+          },
+          {
+            "image": "/images/product/other9.jpg",
+            "title": "모바일 부고 문자",
+            "description": "모바일 부고 문자"
+          }
+        ]
+      }
+    ]
+  },
+  "03": {
+    "title": "무빈소",
+    "description": "무빈소에 대한 상품 설명을 간결하게 서술해 주세요. 무빈소에 대한 상품 설명을 간결하게 서술해 주세요.",
+    "sections": [
+      {
+        "title": "인력 서비스",
+        "items": [
+          {
+            "image": "/images/product/service1.jpg",
+            "title": "장례전문지도사",
+            "description": "3일간 파견"
+          },
+          {
+            "image": "/images/product/service2.jpg",
+            "title": "연습 보조",
+            "description": "입관시 1명 추가 지원"
+          },
+          {
+            "image": "/images/product/service3.jpg",
+            "title": "도우미",
+            "description": "3명 (1인 10시간)"
+          }
+        ]
+      },
+      {
+        "title": "고인 용품",
+        "items": [
+          {
+            "image": "/images/product/efficiency1.jpg",
+            "title": "관",
+            "description": "고급 오동나무 관제공"
+          },
+          {
+            "image": "/images/product/efficiency2.jpg",
+            "title": "수의",
+            "description": "고급 수의 제공"
+          },
+          {
+            "image": "/images/product/efficiency3.jpg",
+            "title": "유골함",
+            "description": "오동나무 목함 제공"
+          },
+          {
+            "image": "/images/product/efficiency4.jpg",
+            "title": "기타용품",
+            "description": "도포, 원삼, 천금, 지금, 습신, 베게 등 규격품 제공"
+          },
+          {
+            "image": "/images/product/efficiency5.jpg",
+            "title": "입관용품",
+            "description": "관보, 결관바, 알코올, 탈지면, 폐백, 다라니경 한지, 초석 등 입관용품 일체 제공"
+          }
+        ]
+      },
+      {
+        "title": "의전 서비스",
+        "items": [
+          {
+            "image": "/images/product/modern1.jpg",
+            "title": "현대식 상복",
+            "description": [
+              "검정양복 3번 제공 (셔츠, 타이 포함)",
+              "개량형 여상복 3번 제공 교차제공 불가"
+            ]
+          },
+          {
+            "image": "/images/product/modern2.jpg",
+            "title": "빈소 용품",
+            "description": "양초, 향, 위패, 명패, 부의록, 완장, 운구용 장갑 등"
+          },
+          {
+            "image": "/images/product/modern3.jpg",
+            "title": "의천차량 / 리무진 or 장의 버스",
+            "description": "리무진 or 장의 버스 중 택1"
+          },
+          {
+            "image": "/images/product/modern4.jpg",
+            "title": "앰뷸런스",
+            "description": "사전요청시 관내 무료 제공 (관외 유족 부담)"
+          },
+          {
+            "image": "/images/product/modern5.jpg",
+            "title": "제단장식",
+            "description": "지원금 없음"
+          },
+          {
+            "image": "/images/product/modern6.jpg",
+            "title": "헌화",
+            "description": "30송이 제공"
+          }
+        ]
+      },
+      {
+        "title": "부가 서비스",
+        "items": [
+          {
+            "image": "/images/product/other1.jpg",
+            "title": "행정절차 안내",
+            "description": "행정절차 안내"
+          },
+          {
+            "image": "/images/product/other2.jpg",
+            "title": "장지 알선 서비스",
+            "description": "장지 알선 서비스"
+          },
+          {
+            "image": "/images/product/other3.jpg",
+            "title": "관내 화장장 우선 예약",
+            "description": "관내 화장장 우선 예약"
+          },
+          {
+            "image": "/images/product/other4.jpg",
+            "title": "화장장 안내",
+            "description": "화장장 안내"
+          },
+          {
+            "image": "/images/product/other5.jpg",
+            "title": "안치시설 연계",
+            "description": "안치시설 연계"
+          },
+          {
+            "image": "/images/product/other6.jpg",
+            "title": "장례식장 빈소 예약",
+            "description": "장례식장 빈소 예약"
+          },
+          {
+            "image": "/images/product/other7.jpg",
+            "title": "염습진행",
+            "description": "염습진행"
+          },
+          {
+            "image": "/images/product/other8.jpg",
+            "title": "종교별 예식 진행",
+            "description": "종교별 예식 진행"
+          },
+          {
+            "image": "/images/product/other9.jpg",
+            "title": "모바일 부고 문자",
+            "description": "모바일 부고 문자"
+          }
+        ]
+      }
+    ]
+  },
+  "04": {
+    "title": "상담 상품",
+    "description": "상담 상품에 대한 상품 설명을 간결하게 서술해 주세요. 상담 상품에 대한 상품 설명을 간결하게 서술해 주세요.",
+    "sections": [
+      {
+        "title": "인력 서비스",
+        "items": [
+          {
+            "image": "/images/product/service1.jpg",
+            "title": "장례전문지도사",
+            "description": "3일간 파견"
+          },
+          {
+            "image": "/images/product/service2.jpg",
+            "title": "연습 보조",
+            "description": "입관시 1명 추가 지원"
+          },
+          {
+            "image": "/images/product/service3.jpg",
+            "title": "도우미",
+            "description": "3명 (1인 10시간)"
+          }
+        ]
+      },
+      {
+        "title": "고인 용품",
+        "items": [
+          {
+            "image": "/images/product/efficiency1.jpg",
+            "title": "관",
+            "description": "고급 오동나무 관제공"
+          },
+          {
+            "image": "/images/product/efficiency2.jpg",
+            "title": "수의",
+            "description": "고급 수의 제공"
+          },
+          {
+            "image": "/images/product/efficiency3.jpg",
+            "title": "유골함",
+            "description": "오동나무 목함 제공"
+          },
+          {
+            "image": "/images/product/efficiency4.jpg",
+            "title": "기타용품",
+            "description": "도포, 원삼, 천금, 지금, 습신, 베게 등 규격품 제공"
+          },
+          {
+            "image": "/images/product/efficiency5.jpg",
+            "title": "입관용품",
+            "description": "관보, 결관바, 알코올, 탈지면, 폐백, 다라니경 한지, 초석 등 입관용품 일체 제공"
+          }
+        ]
+      },
+      {
+        "title": "의전 서비스",
+        "items": [
+          {
+            "image": "/images/product/modern1.jpg",
+            "title": "현대식 상복",
+            "description": [
+              "검정양복 3번 제공 (셔츠, 타이 포함)",
+              "개량형 여상복 3번 제공 교차제공 불가"
+            ]
+          },
+          {
+            "image": "/images/product/modern2.jpg",
+            "title": "빈소 용품",
+            "description": "양초, 향, 위패, 명패, 부의록, 완장, 운구용 장갑 등"
+          },
+          {
+            "image": "/images/product/modern3.jpg",
+            "title": "의천차량 / 리무진 or 장의 버스",
+            "description": "리무진 or 장의 버스 중 택1"
+          },
+          {
+            "image": "/images/product/modern4.jpg",
+            "title": "앰뷸런스",
+            "description": "사전요청시 관내 무료 제공 (관외 유족 부담)"
+          },
+          {
+            "image": "/images/product/modern5.jpg",
+            "title": "제단장식",
+            "description": "지원금 없음"
+          },
+          {
+            "image": "/images/product/modern6.jpg",
+            "title": "헌화",
+            "description": "30송이 제공"
+          }
+        ]
+      },
+      {
+        "title": "부가 서비스",
+        "items": [
+          {
+            "image": "/images/product/other1.jpg",
+            "title": "행정절차 안내",
+            "description": "행정절차 안내"
+          },
+          {
+            "image": "/images/product/other2.jpg",
+            "title": "장지 알선 서비스",
+            "description": "장지 알선 서비스"
+          },
+          {
+            "image": "/images/product/other3.jpg",
+            "title": "관내 화장장 우선 예약",
+            "description": "관내 화장장 우선 예약"
+          },
+          {
+            "image": "/images/product/other4.jpg",
+            "title": "화장장 안내",
+            "description": "화장장 안내"
+          },
+          {
+            "image": "/images/product/other5.jpg",
+            "title": "안치시설 연계",
+            "description": "안치시설 연계"
+          },
+          {
+            "image": "/images/product/other6.jpg",
+            "title": "장례식장 빈소 예약",
+            "description": "장례식장 빈소 예약"
+          },
+          {
+            "image": "/images/product/other7.jpg",
+            "title": "염습진행",
+            "description": "염습진행"
+          },
+          {
+            "image": "/images/product/other8.jpg",
+            "title": "종교별 예식 진행",
+            "description": "종교별 예식 진행"
+          },
+          {
+            "image": "/images/product/other9.jpg",
+            "title": "모바일 부고 문자",
+            "description": "모바일 부고 문자"
+          }
+        ]
+      }
+    ]
+  }
+}
