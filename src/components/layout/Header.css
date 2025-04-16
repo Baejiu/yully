@@ -1,4 +1,46 @@
 .header {
+  background-color: #000;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.desktop-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.left-menu,
+.right-menu {
+  display: flex;
+  gap: 80px;
+  padding: 0 20px;
+}
+
+.menu-item {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+  font-weight: 500;
+}
+
+.menu-item:hover {
+  color: #ccc;
+}
+
+.logo {
+  padding: 0 20px;
+}
+
+/* 모바일 스타일은 기존 코드 유지 */
+.mobile-header {
   position: fixed;
   top: 0;
   left: 0;
@@ -19,6 +61,7 @@
   height: 40px;
   z-index: 10;
 }
+
 .desktop-menu {
   flex: 1;
   display: flex;
