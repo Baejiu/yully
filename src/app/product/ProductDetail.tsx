@@ -44,7 +44,7 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
               <div key={itemIndex} className={styles.item}>
                 <div className={styles.imageWrapper}>
                   <Image
-                    src={`/${item.image}`}
+                    src={`${item.image}`}
                     alt={item.title}
                     width={300}
                     height={200}
