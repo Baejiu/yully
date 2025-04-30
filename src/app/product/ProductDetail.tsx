@@ -3,8 +3,6 @@ import Image from 'next/image';
 import styles from './productDetail.module.css';
 import productDetails from './productDetails.json';
 
-const basePath = process.env.NODE_ENV === 'production' ? '/yully' : '';
-
 interface ProductDetailProps {
   productId: string;
 }
@@ -46,7 +44,7 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
               <div key={itemIndex} className={styles.item}>
                 <div className={styles.imageWrapper}>
                   <Image
-                    src={`${basePath}/${item.image}`}
+                    src={`/${item.image}`}
                     alt={item.title}
                     width={300}
                     height={200}

@@ -5,8 +5,6 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import './Header.css';
 
-const basePath = process.env.NODE_ENV === 'production' ? '/yully' : '';
-
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -52,7 +50,7 @@ export default function Header() {
           <div className="logo">
             <Link href="/">
               <Image
-                src={`${basePath}/images/header_logo.png`}
+                src={`/images/header_logo.png`}
                 alt="올리사랑 로고"
                 width={154}
                 height={50}
@@ -74,7 +72,7 @@ export default function Header() {
             <div className="logo">
               <Link href="/">
                 <Image
-                  src={`${basePath}/images/header_logo.png`}
+                  src={`/images/header_logo.png`}
                   alt="올리사랑 로고"
                   width={154}
                   height={50}

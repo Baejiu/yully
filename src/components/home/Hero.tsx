@@ -2,7 +2,6 @@
 import Image from 'next/image';
 import styled from 'styled-components';
 import './Hero.css';
-const basePath = process.env.NODE_ENV === 'production' ? '/yully' : '';
 
 const HeroContainer = styled.div`
   background-color: #000;
@@ -10,7 +9,7 @@ const HeroContainer = styled.div`
   color: white;
   padding: 40px 20px;
   text-align: center;
-  background-image: url('${basePath}/images/main.jpeg');
+  background-image: url('/images/main.jpeg');
   background-size: contain;
   width: 100%;
   background-position: left center;
@@ -38,7 +37,7 @@ export default function Hero() {
           className="hero-image"
         /> */}
         <Image
-          src={`${basePath}/images/main_impact.png`}
+          src={`/images/main_impact.png`}
           alt="logo"
           width={380}
           height={240}
