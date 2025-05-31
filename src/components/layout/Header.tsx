@@ -33,10 +33,12 @@ export default function Header() {
     {
       name: '장례 후기',
       path: 'https://blog.naver.com/PostList.naver?blogId=sincuva&from=postList&categoryNo=3',
+      target: '_blank',
     },
     {
       name: '장례 정보',
       path: 'https://blog.naver.com/PostList.naver?blogId=sincuva&from=postList&categoryNo=4',
+      target: '_blank',
     },
     { name: '장례문의', path: '/contact' },
   ];
@@ -47,7 +49,12 @@ export default function Header() {
         <nav className="desktop-menu">
           <div className="left-menu">
             {menuItems.slice(0, 2).map((item, index) => (
-              <Link key={index} href={item.path} className="menu-item">
+              <Link
+                key={index}
+                href={item.path}
+                className="menu-item"
+                target={item.target || '_self'}
+              >
                 {item.name}
               </Link>
             ))}
@@ -104,7 +111,11 @@ export default function Header() {
               <ul>
                 {menuItems.map((item, index) => (
                   <li key={index}>
-                    <Link href={item.path} onClick={closeMenu}>
+                    <Link
+                      href={item.path}
+                      onClick={closeMenu}
+                      target={item.target || '_self'}
+                    >
                       {item.name}
                     </Link>
                   </li>
