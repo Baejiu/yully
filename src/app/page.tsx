@@ -1,7 +1,7 @@
 import Hero from '@/components/home/Hero';
-import ProductList from '@/components/product/ProductList';
-import Testimonial from '@/components/testimonial/Testimonial';
-import CompanyInfo from '@/components/company/CompanyInfo';
+// import ProductList from '@/components/product/ProductList';
+// import Testimonial from '@/components/testimonial/Testimonial';
+// import CompanyInfo from '@/components/company/CompanyInfo';
 
 import './page.css';
 
@@ -11,7 +11,7 @@ export default function Home() {
       <section className="hero-section">
         <Hero />
       </section>
-
+      {/* 
       <section className="product-section">
         <ProductList />
       </section>
@@ -22,7 +22,7 @@ export default function Home() {
 
       <section className="company-info-section">
         <CompanyInfo />
-      </section>
+      </section> */}
     </div>
   );
 }

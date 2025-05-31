@@ -6,18 +6,26 @@ import './Hero.css';
 const HeroContainer = styled.div`
   background-color: #000;
   height: calc(100vh - 120px);
+
   color: white;
-  padding: 40px 20px;
+  padding: 20px 80px;
   text-align: center;
   background-image: url('/images/main.jpeg');
-  background-size: contain;
+
   width: 100%;
   background-position: left center;
   background-repeat: no-repeat;
+  background-size: 80vh;
 
   @media (max-width: 768px) {
-    background-size: 40vh;
-    background-position: center 0px;
+    height: calc(100vh - 100px);
+    background-size: 70vh;
+    padding: 20px 20px 10px;
+    background-position: left bottom;
+  }
+
+  @media (max-width: 480px) {
+    background-size: 90vw;
   }
 `;
 
@@ -29,22 +37,17 @@ export default function Hero() {
         <span className="main-text">올리 사랑</span>
       </h1>
       <div className="hero-content">
-        {/* <Image
-          src={`${basePath}/images/main.jpeg`}
-          alt="하얀 국화"
-          width={600}
-          height={600}
-          className="hero-image"
-        /> */}
         <Image
+          className="hero-image"
           src={`/images/main_impact.png`}
           alt="logo"
-          width={380}
-          height={240}
+          width={480}
+          height={280}
         />
-      </div>
-      <div className="hero-contact">
-        <p>24시간 장례상담 010-9925-4519</p>
+
+        <div className="hero-contact">
+          <p>24시간 장례상담 010-9925-4519</p>
+        </div>
       </div>
     </HeroContainer>
   );

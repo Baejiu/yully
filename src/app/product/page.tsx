@@ -10,6 +10,7 @@ const products = Object.entries(productDetails).map(([id, data]) => ({
   id,
   name: data.title,
   description: data.description,
+  mobile_description: data.mobile_description,
 }));
 
 export default function ProductPage() {
@@ -33,6 +34,9 @@ export default function ProductPage() {
               <div>
                 <h2 className={styles.productName}>{product.name}</h2>
                 <p className={styles.description}>{product.description}</p>
+                <p className={styles.mobileDescription}>
+                  {product.mobile_description}
+                </p>
               </div>
             </li>
           ))}

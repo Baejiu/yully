@@ -1,6 +1,35 @@
 .footer {
-  background-color: #222;
-  color: white;
+  background-color: #222220;
+  color: #888;
   padding: 20px;
   text-align: center;
+  font-size: 1rem;
+  min-height: 100px;
+}
+
+.footer-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 16px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-content li {
+  display: inline-block;
+  margin: 0 10px;
+  list-style: none;
 }

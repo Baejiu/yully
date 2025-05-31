@@ -5,13 +5,13 @@
   justify-content: flex-end;
   height: 100%;
   width: 100%;
-  max-width: 1200px;
-  padding: 0px 40px 60px;
+
+  padding: 0px 40px 20px;
   margin: 0 auto;
 
   @media (max-width: 768px) {
-    align-items: center;
-    padding: 0px 20px 20px;
+    justify-content: space-between;
+    padding: 100px 20px 20px;
   }
 }
 
@@ -21,7 +21,11 @@
   margin-bottom: 30px;
 }
 .hero-contact {
-  font-size: 1.2rem;
+  opacity: 0;
+  @media (max-width: 768px) {
+    align-self: center;
+    opacity: 1;
+  }
 }
 .small-text {
   font-size: 16px;
@@ -34,7 +38,8 @@
 }
 
 .hero-image {
-  margin-top: 30px;
-  max-width: 100%;
-  height: auto;
+  @media (max-width: 768px) {
+    width: 40vw;
+    height: auto;
+  }
 }

@@ -30,8 +30,14 @@ export default function Header() {
 
   const menuItems = [
     { name: '장례상품', path: '/product' },
-    { name: '장례 후기', path: '/review' },
-    { name: '장례 정보', path: '/info' },
+    {
+      name: '장례 후기',
+      path: 'https://blog.naver.com/PostList.naver?blogId=sincuva&from=postList&categoryNo=3',
+    },
+    {
+      name: '장례 정보',
+      path: 'https://blog.naver.com/PostList.naver?blogId=sincuva&from=postList&categoryNo=4',
+    },
     { name: '장례문의', path: '/contact' },
   ];
 
