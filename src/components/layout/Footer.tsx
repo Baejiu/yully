@@ -1,8 +1,41 @@
+'use client';
+import { usePathname } from 'next/navigation';
 import './Footer.css';
+import { useEffect, useState } from 'react';
 
+const DARK_COLOR = '#222220';
+const LIGHT_COLOR = '#D1D1D1';
 export default function Footer() {
+  const [isMobile, setIsMobile] = useState(false);
+  const [footerBackgroundColor, setFooterBackgroundColor] = useState('#222220');
+  const pathname = usePathname();
+
+  console.log(pathname);
+  useEffect(() => {
+    const isContactPage = pathname.startsWith('/contact');
+    const isMainPage = pathname.includes('/');
+    console.log(isMobile, isContactPage, isMainPage);
+    if ((isContactPage && !isMobile) || isMainPage) {
+      setFooterBackgroundColor(DARK_COLOR);
+    } else {
+      setFooterBackgroundColor(LIGHT_COLOR);
+    }
+  }, [pathname, isMobile]);
+
+  useEffect(() => {
+    window.addEventListener('resize', () => {
+      setIsMobile(window.innerWidth < 900);
+    });
+    return () => {
+      window.removeEventListener('resize', () => {});
+    };
+  }, []);
   return (
-    <footer className="footer">
+    <footer
+      className={
+        footerBackgroundColor === LIGHT_COLOR ? 'light-footer' : 'dark-footer'
+      }
+    >
       <div className="footer-contents">
         <ul className="footer-content">
           <li>올리사랑 상조</li>
@@ -12,7 +45,7 @@ export default function Footer() {
           <li>이메일 : sincuva@naver.com</li>
         </ul>
         <p className="footer-copyright">
-          @CCPYRIGHT 2018 올리사랑의전. Al Rights Reserved
+          @CCPYRIGHT 2018 올리사랑의전. All Rights Reserved
         </p>
       </div>
     </footer>
