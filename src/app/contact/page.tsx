@@ -1,8 +1,43 @@
 'use client';
 import Image from 'next/image';
 import './contact.css';
+import { useState } from 'react';
+import { sendContactEmail } from '@/service/sendmail';
 
 export default function ContactPage() {
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsLoading(true);
+
+    const formData = new FormData(e.target as HTMLFormElement);
+    const name = formData.get('name') as string;
+    const phone = formData.get('phone') as string;
+    const message = formData.get('message') as string;
+
+    if (!name && !phone && !message) {
+      alert('문의 내용을 입력해주세요.');
+      setIsLoading(false);
+      return;
+    }
+    console.log(name, phone, message);
+
+    try {
+      await sendContactEmail({
+        subject: `[${name}] ${phone}`,
+        sender: name,
+        text: message,
+      });
+      alert('문의가 접수되었습니다. 빠른 시일 내에 답변드리겠습니다.');
+    } catch (error) {
+      alert('문의 접수에 실패했습니다. 잠시 후 다시 시도해주세요.');
+      console.error(error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   return (
     <div className="contact-container">
       <div className="contact-left">
@@ -18,14 +53,14 @@ export default function ContactPage() {
           <br />
           소중한 이별을 위한 모든 과정을 함께 준비하겠습니다.
         </p>
-        <form className="contact-form">
+        <form className="contact-form" onSubmit={handleSubmit}>
           <label htmlFor="name">성함</label>
-          <input id="name" name="name" type="text" required />
+          <input id="name" name="name" type="text" />
           <label htmlFor="phone">연락처</label>
-          <input id="phone" name="phone" type="text" required />
+          <input id="phone" name="phone" type="text" />
           <label htmlFor="message">문의내용</label>
-          <textarea id="message" name="message" rows={6} required />
-          <button type="submit" className="contact-submit">
+          <textarea id="message" name="message" rows={6} />
+          <button type="submit" className="contact-submit" disabled={isLoading}>
             문의하기
           </button>
         </form>

@@ -22,6 +22,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Create .env file
+        run: |
+          echo "NEXT_PUBLIC_APP_ENV_GMAIL_ADDRESS=${{ secrets.NEXT_PUBLIC_APP_ENV_GMAIL_ADDRESS }}" >> .env
+          echo "NEXT_PUBLIC_APP_ENV_GMAIL_PASS=${{ secrets.NEXT_PUBLIC_APP_ENV_GMAIL_PASS }}" >> .env
+
       - name: Build
         run: npm run build
 
