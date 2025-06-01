@@ -45,7 +45,7 @@ export default function Footer() {
           <li>이메일 : sincuva@naver.com</li>
         </ul>
         <p className="footer-copyright">
-          @CCPYRIGHT 2018 올리사랑의전. All Rights Reserved
+          @CCPYRIGHT 2025 올리사랑. All Rights Reserved
         </p>
       </div>
     </footer>
