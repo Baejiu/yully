@@ -14,7 +14,7 @@ export async function sendContactEmail(emailForm: MailType) {
   });
 
   const data = await response.json();
-  console.log(data);
+
   if (!response.ok) {
     throw new Error(data.message || '서버 요청에 실패함');
   }

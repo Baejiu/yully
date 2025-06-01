@@ -5,16 +5,16 @@ import { useEffect, useState } from 'react';
 
 const DARK_COLOR = '#222220';
 const LIGHT_COLOR = '#D1D1D1';
+
 export default function Footer() {
   const [isMobile, setIsMobile] = useState(false);
   const [footerBackgroundColor, setFooterBackgroundColor] = useState('#222220');
   const pathname = usePathname();
 
-  console.log(pathname);
   useEffect(() => {
+    if (!pathname) return;
     const isContactPage = pathname.startsWith('/contact');
     const isMainPage = pathname.includes('/');
-    console.log(isMobile, isContactPage, isMainPage);
     if ((isContactPage && !isMobile) || isMainPage) {
       setFooterBackgroundColor(DARK_COLOR);
     } else {

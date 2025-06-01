@@ -21,7 +21,6 @@ export default function ContactPage() {
       setIsLoading(false);
       return;
     }
-    console.log(name, phone, message);
 
     try {
       await sendContactEmail({
