@@ -24,7 +24,7 @@ export default function ContactPage() {
 
     try {
       await sendContactEmail({
-        subject: `[${name}] ${phone}`,
+        phone,
         sender: name,
         text: message,
       });

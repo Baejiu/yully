@@ -1,5 +1,5 @@
 export type MailType = {
-  subject: string;
+  phone: string;
   sender: string;
   text: string;
 };
