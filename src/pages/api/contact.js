@@ -1,43 +1,33 @@
-import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
-import '../../../envConfig.ts';
 
-const email = process.env.NEXT_PUBLIC_APP_ENV_GMAIL_ADDRESS;
-const pass = process.env.NEXT_PUBLIC_APP_ENV_GMAIL_PASS;
+export default async function handler(req, res) {
+  if (req.method !== 'POST') {
+    return res.status(405).json({ message: 'Method Not Allowed' });
+  }
 
-const transporter = nodemailer.createTransport({
-  host: 'smtp.gmail.com',
-  port: 465,
-  secure: true,
-  auth: {
-    user: email,
-    pass,
-  },
-});
+  const { subject, sender, text } = req.body;
 
-const mailOptions = {
-  from: email,
-  to: 'jiumaker@naver.com',
-};
-
-export async function POST(request) {
-  const data = await request.json();
-
-  const fixTime = new Date().toLocaleTimeString('en-US', {
-    hour: '2-digit',
-    minute: '2-digit',
-    second: '2-digit',
+  const transporter = nodemailer.createTransport({
+    host: 'smtp.gmail.com',
+    port: 465,
+    secure: true,
+    auth: {
+      user: process.env.NEXT_PUBLIC_APP_ENV_GMAIL_ADDRESS,
+      pass: process.env.NEXT_PUBLIC_APP_ENV_GMAIL_PASS,
+    },
   });
+
   try {
     await transporter.sendMail({
-      ...mailOptions,
-      subject: `[${fixTime}] ${data.subject}`,
-      text: `보내는 사람: ${data.sender}, 내용: ${data.text} `,
+      from: process.env.NEXT_PUBLIC_APP_ENV_GMAIL_ADDRESS,
+      to: 'jiumaker@naver.com',
+      subject,
+      text: `보내는 사람: ${sender}, 내용: ${text}`,
     });
 
-    return NextResponse.json({ message: 'Success: email was sent' });
+    return res.status(200).json({ message: 'Success: email was sent' });
   } catch (error) {
-    console.log(error);
-    NextResponse.status(500).json({ message: 'COULD NOT SEND MESSAGE' });
+    console.error(error);
+    return res.status(500).json({ message: 'COULD NOT SEND MESSAGE' });
   }
 }
