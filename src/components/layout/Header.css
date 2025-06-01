@@ -46,7 +46,7 @@
   left: 0;
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 8px;
   background-color: #000;
   color: white;
 
@@ -58,7 +58,6 @@
 }
 
 .logo {
-  height: 40px;
   z-index: 10;
 }
 
@@ -210,6 +209,10 @@
 
 /* 미디어 쿼리 */
 @media (max-width: 767px) {
+  .logo-image {
+    width: 100px;
+    height: 30px;
+  }
   .desktop-menu {
     display: none;
   }

@@ -63,6 +63,7 @@ export default function Header() {
           <div className="logo">
             <Link href="/">
               <Image
+                className="logo-image"
                 src={`/images/header_logo.png`}
                 alt="올리사랑 로고"
                 width={154}
@@ -85,6 +86,7 @@ export default function Header() {
             <div className="logo">
               <Link href="/">
                 <Image
+                  className="logo-image"
                   src={`/images/header_logo.png`}
                   alt="올리사랑 로고"
                   width={154}

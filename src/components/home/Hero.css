@@ -38,6 +38,7 @@
 }
 
 .hero-image {
+  min-width: 200px;
   @media (max-width: 768px) {
     width: 40vw;
     height: auto;

@@ -39,9 +39,44 @@
   display: inline-block;
   margin: 0 10px;
   list-style: none;
+  position: relative;
+  &::after {
+    content: '|';
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+  }
 }
-@media (max-width: 480px) {
-  .footer {
+.footer-content li:last-child::after {
+  display: none;
+}
+@media (max-width: 768px) {
+  .footer-content li {
+    margin: 0 2px;
     font-size: 0.8rem;
+  }
+  .footer-copyright {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .dark-footer {
+    padding: 20px 8px;
+    min-height: auto;
+  }
+  .light-footer {
+    padding: 20px 8px;
+    min-height: auto;
+  }
+
+  .footer-content li {
+    margin: 0 2px;
+    font-size: 0.6rem;
+  }
+  .footer-copyright {
+    font-size: 0.65rem;
   }
 }

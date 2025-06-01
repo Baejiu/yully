@@ -24,7 +24,7 @@ const HeroContainer = styled.div`
     background-position: left bottom;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 600px) {
     background-size: 90vw;
   }
 `;

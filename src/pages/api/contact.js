@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
-import '../../../../envConfig.ts';
+import '../../../envConfig.ts';
 
 const email = process.env.NEXT_PUBLIC_APP_ENV_GMAIL_ADDRESS;
 const pass = process.env.NEXT_PUBLIC_APP_ENV_GMAIL_PASS;
