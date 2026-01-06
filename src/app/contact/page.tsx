@@ -41,7 +41,7 @@ export default function ContactPage() {
     <div className="contact-container">
       <div className="contact-left">
         <div className="contact-title">무료상담 및 접수</div>
-        <div className="contact-phone">010-2141-4519</div>
+        <div className="contact-phone">1555-3755</div>
         <p className="mobile-contents">
           슬픔과 어려움 속. 저희 올리사랑상조가 곁이 되어드리겠습니다.
           <br />

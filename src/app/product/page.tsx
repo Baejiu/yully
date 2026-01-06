@@ -43,7 +43,7 @@ export default function ProductPage() {
         </ul>
       </div>
       <div className={styles.contentContainer}>
-        <p className={styles.banner}>24시간 장례상담 010-2141-4519</p>
+        <p className={styles.banner}>24시간 장례상담 1555-3755</p>
         <ProductDetail productId={activeTab} />
       </div>
     </div>

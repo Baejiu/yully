@@ -7,7 +7,7 @@ function FloatingButtons() {
     if (type === 'kakao') {
       window.open('https://open.kakao.com/me/ollylove', '_blank');
     } else if (type === 'phone') {
-      window.open('tel:010-2141-4519', '_blank');
+      window.open('tel:1555-3755', '_blank');
     }
   };
 

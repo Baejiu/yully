@@ -93,7 +93,7 @@ function Testimonial() {
         <p>
           장애 접수 및 상담
           <br />
-          010-2141-4519
+          1555-3755
         </p>
       </div>
 

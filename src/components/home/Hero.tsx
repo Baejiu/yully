@@ -46,7 +46,7 @@ export default function Hero() {
         />
 
         <div className="hero-contact">
-          <p>24시간 장례상담 010-2141-4519</p>
+          <p>24시간 장례상담 1555-3755</p>
         </div>
       </div>
     </HeroContainer>
